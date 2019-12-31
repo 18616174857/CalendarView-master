@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+    android:width="40dp"
+    android:height="40dp"
+    >
+    <shape android:shape="rectangle">
+         <!-- 填充为透明 -->
+        <solid
+            android:width="5dp"
+            android:color="#00000000"
+            />   
+        <!-- 描边 -->
+        <stroke android:width="2dp" android:color="#ff4a4a" />
+        <corners android:radius="10dp" />
+    </shape>
+</item>
+</layer-list>
